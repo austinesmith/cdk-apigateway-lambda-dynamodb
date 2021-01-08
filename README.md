@@ -1,9 +1,8 @@
-# Welcome to your CDK TypeScript project!
+# Simple starting app for a serverless database architecture
 
-You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`CdkApigatewayLambdaDynamodbStack`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+When deployed, this app returns a URL to make a simple simple call to API Gateway.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+The call uses API Gateway and invokes a Lambda function with access to DynamoDB.
 
 ## Useful commands
 
